@@ -8,7 +8,7 @@ from multiprocessing import Pool, Process
 from ffmpy import FFmpeg
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pytz, wikipedia, pafy, youtube_dl, atexit
 
-print ("WELCOME TO RFU SEKAWAN\n\n")
+print ("ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ\n\n")
 
 #cl = RIDEN()
 cl = RIDEN(authTokenRFU="EupBoQXqFuwMd3HSCoM4.1EmqU+/dVpG0MFQ7n3YXHa.l2ePvhfUlo+vMwnBH37S83USbbhujOcHZ+xijfynr2A=")
@@ -16,7 +16,7 @@ cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = RIDENChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 #cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
-print ("LOGIN SUCCESS RFU")
+print ("ᴀɴᴅᴀ ᴛᴇʟᴀʜ ʟᴏɢɪɴ ᴛᴏ ɴᴇxᴛ ᴀ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴀʜʟɪ ᴋᴜʙᴜʀ")
 
 clProfile = cl.getProfile()
 clSettings = cl.getSettings()
@@ -115,15 +115,15 @@ def RIDEN_FAST_USER(fast):
 
                     elif rfuText in ["Sp","sp","Speed","speed"]:
                         start = time.time()
-                        cl.sendText("u2fd9d66d7006f6dac03dc94950fa83c8", ' ')
+                        cl.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
                         elapsed_time = time.time() - start
                         cl.sendText(kirim, "%s" % (elapsed_time))
                         start2 = time.time()
-                        cl.sendText("u2fd9d66d7006f6dac03dc94950fa83c8", ' ')
+                        cl.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
                         elapsed_time = time.time() - start2
                         cl.sendText(kirim, "%s" % (elapsed_time))
                         start3 = time.time()
-                        cl.sendText("u2fd9d66d7006f6dac03dc94950fa83c8", ' ')
+                        cl.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
                         elapsed_time = time.time() - start3
                         cl.sendText(kirim, "%s" % (elapsed_time))
 
