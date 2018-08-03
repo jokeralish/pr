@@ -8,7 +8,7 @@ from multiprocessing import Pool, Process
 from ffmpy import FFmpeg
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pytz, wikipedia, pafy, youtube_dl, atexit
 
-print ("\n\n ---  WELCOME TO RFU SEKAWAN  ---\n")
+print ("\n\n ---  ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ  ---\n")
 
 cl = RIDEN()
 #cl = RIDEN(authTokenRFU="YOUR TOKEN")
@@ -16,7 +16,7 @@ cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = RIDENChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
-print ("LOGIN SUCCESS RFU")
+print ("ᴀɴᴅᴀ ᴛᴇʟᴀʜ ʟᴏɢɪɴ ᴛᴏ ɴᴇxᴛ ᴀ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴀʜʟɪ ᴋᴜʙᴜʀ")
 
 clProfile = cl.getProfile()
 clSettings = cl.getSettings()
@@ -25,7 +25,7 @@ RIDEN = RIDENPoll(cl)
 Rfu = [cl]
 INDUK = cl.profile.mid
 RfuBot=[INDUK]
-Owner=["u805e9f30ea4da7b64a14e0f9cea0767c"]
+Owner=["u31d8aba9dff04c75242f2a2097b8adae","u9f478c580a9c4e1de5e407e9b10c2da1"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -38,7 +38,7 @@ Squad = {
     "UnsendPesan":False,
     "SpamInvite":False,
     "Contact":False,
-    "GName":"Ardian Purnama",
+    "GName":"ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴘʜɪᴇ",
     "AutoRespon":False,
     "KickRespon":False,
     "KillOn":False,
@@ -50,7 +50,7 @@ Squad = {
     "Invite":False,
     "Copy":False,
     "autoAdd":True,
-    "PesanAdd":"Terima Kasih Sudah Add Saya",
+    "PesanAdd":"ᵗᵉʳⁱᵐᵃ ᵏᵃˢⁱʰ ˢᵘᵈᵃʰ ᵐᵉⁿᵃᵐᵇᵃʰᵏᵃⁿ ˢᵃʸᵃ ˢᵉᵇᵃᵍᵃⁱ ᵗᵉᵐᵃⁿ ,ʲⁱᵏᵃ ᵃⁿᵈᵃ ᵐᵉʳᵃˢᵃ ᵗⁱᵈᵃᵏ ⁱⁿᵍⁱⁿ ᵐᵉⁿᵈᵃᵖᵃᵗᵏᵃⁿ ᵖᵉᵐᵇᵉʳⁱᵗᵃʰᵘᵃⁿ ˢᴵᴸᴬᴴᴷᴬᴺ ᵇᵃⁿᵗⁱⁿᵍ ʰᵖ ᵃⁿᵈᵃ ,ᵈⁱʲᵃᵐⁱⁿ ᵍᵃᵏ ᵃᵈᵃ ⁿᵒᵗⁱᶠ ˡᵃᵍⁱ",
     "ContactAdd":{},
     "autoBlock":False,
     "autoJoin":True,
@@ -61,9 +61,9 @@ Squad = {
     "Timeline":False,
     "Welcome":False,
     "BackupBot":True,
-    "WcText": "Welcome My Friend",
+    "WcText": "ᴡᴇʟᴄᴏᴍᴇ ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ",
     "Leave":False,
-    "LvText": "See You My Friend",
+    "LvText": "ꜱᴇᴇ ʏᴏᴜ ᴀʜʟɪ ᴋᴜʙᴜʀ",
     "Mic":False,
     "MicDel":False,
     "Adminadd":False,
@@ -77,7 +77,7 @@ Squad = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "u805e9f30ea4da7b64a14e0f9cea0767c":True #MID ADMIN TARO DISINI
+        "u31d8aba9dff04c75242f2a2097b8adae":True #MID ADMIN
     },
 }
 
@@ -132,123 +132,125 @@ RfuCctv={
     "Point3":{}
 }
 
-Help ="""  GENERAL PYTHON 3 
-         COMMAND 
+Help ="""💻 GENERAL PYTHON3 💻
 
-me
-my name
-my bio
-my picture
-my cover
-my video
-speed
-rename
-my bot
-my team
-stealname [@]
-stealbio [@]
-stealpict [@]
-stealcover [@]
-stealvideo [@]
-stealmid [@]
-profile [@]
-spam on [jmlah teks]
-cekmid: [mid]
-banlock [@]
-banlist
-contact ban
-clear ban
-blocklist
-friendlist
-friendlist mid
-runtime
-broadcast:
-contactbc:
-adminadd [@]
-admindel [@]
-admin:add-on
-admin:del-on
-changename:
-changebio:
-remove pesan
-restart
-bot logout
-kick [@]
-status
-unsend on/off
-changepp on/off
-timeline on/off
-autojoin on/off
-autoreject on/off
-auto jointicket on/off
-gift:on/off
-copy on/off
-clone [@]
-comeback
-steal on/off
-contact on/off
-mic:add-on
-mic:del-on
-mimic on/off
-mimiclist
-refresh
-___[ GROUP ]___
-leaveall grup
-kick [on,off->kickall]
-invite on/off
-kill on/off
-rejectall grup
-lurking on/off/reset
-lurking read
-sider on/off
-mentionall
-welcome on/off
-changewelcome:
-leave on/off
-changeleave:
-memberlist
-link on/off
-my grup
-gurl
-gcreator
-invite gcreator
-ginfo
-grup id
-cfotogrup on/off
-spaminvite on/off
-announce
-___[ MEDIA ]____
-topnews
-data birth:
-urban:
-sslink:
-maps:
-cekcuaca:
-jadwalshalat:
-idline:
-say-id:
-say-en:
-say-jp:
-say-ar:
-say-ko:
-apakah:
-kapan:
-wikipedia:
-kalender
-image:
-youtube:
-___[ TRANSLATOR ]___
-indonesian:
-english:
-korea:
-japan:
-thailand:
-arab:
-malaysia:
-jawa:
+   ⚙ COMMAND ⚙
+📲 me
+📲 my name
+📲 my bio
+📲 my picture
+📲 my cover
+📲 my video
+📲 speed
+📲 rename
+📲 my bot
+📲 my team
+📲 stealname [@]
+📲 stealbio [@]
+📲 stealpict [@]
+📲 stealcover [@]
+📲 stealvideo [@]
+📲 stealmid [@]
+📲 profile [@]
+📲 spam on [jmlah teks]
+📲 cekmid: [mid]
+📲 banlock [@]
+📲 banlist
+📲 contact ban
+📲 clear ban
+📲 blocklist
+📲 friendlist
+📲 friendlist mid
+📲 runtime
+📲 broadcast:
+📲 contactbc:
+📲 adminadd [@]
+📲 admindel [@]
+📲 admin:add-on
+📲 admin:del-on
+📲 changename:
+📲 changebio:
+📲 remove pesan
+📲 restart
+📲 bot logout
+📲 kick [@]
+📲 status
+📲 unsend on/off
+📲 changepp on/off
+📲 timeline on/off
+📲 autojoin on/off
+📲 autoreject on/off
+📲 auto jointicket on/off
+📲 gift:on/off
+📲 copy on/off
+📲 clone [@]
+📲 comeback
+📲 steal on/off
+📲 contact on/off
+📲 mic:add-on
+📲 mic:del-on
+📲 mimic on/off
+📲 mimiclist
+📲 refresh
 
-         THANKS TO 
-       RFU SEKAWAN
+   [🔐 GROUP 🔐]
+🛅 leaveall grup
+🛅 kick [on,off->kickall]
+🛅 invite on/off
+🛅 kill on/off
+🛅 rejectall grup
+🛅 lurking on/off/reset
+🛅 lurking read
+🛅 sider on/off
+🛅 mentionall
+🛅 welcome on/off
+🛅 changewelcome:
+🛅 leave on/off
+🛅 changeleave:
+🛅 memberlist
+🛅 link on/off
+🛅 my grup
+🛅 gurl
+🛅 gcreator
+🛅 invite gcreator
+🛅 ginfo
+🛅 grup id
+🛅 cfotogrup on/off
+🛅 spaminvite on/off
+🛅 announce
+
+   [📥 MEDIA 📥]
+🔎 topnews
+🔎 data birth:
+🔎 urban:
+🔎 sslink:
+🔎 maps:
+🔎 cekcuaca:
+🔎 jadwalshalat:
+🔎 idline:
+🔎 say-id:
+🔎 say-en:
+🔎 say-jp:
+🔎 say-ar:
+🔎 say-ko:
+🔎 apakah:
+🔎 kapan:
+🔎 wikipedia:
+🔎 kalender
+🔎 image:
+🔎 youtube:
+
+   [✍ TRANSLATE ✍]
+📝 indonesian:
+📝 english:
+📝 korea:
+📝 japan:
+t📝 hailand:
+📝 arab:
+📝 malaysia:
+📝 jawa:
+
+🙏 ᴛʜᴀɴᴋꜱ ᴛᴏ ᴀʟʟᴀʜ ꜱᴡᴛ 🙏
 """"________________________"
 
 #------------------------------------------------ SCRIP DEF ----------------------------------------------------------#
@@ -813,9 +815,9 @@ def RIDEN_FAST_USER(fast):
                         for target in targets:
                             try:
                                 cl.findAndAddContactsByMid(target)
-                                cl.createGroup("RIDEN SPAM GROUP",[target]) # KALAU MAU BUAT BANYAK SILAHKAN TAMBAHIN SESUKA KALIAN :>
-                                cl.createGroup("RIDEN SPAM GROUP",[target]) # HANYA SPAM VIA CONTACT
-                                cl.createGroup("RIDEN SPAM GROUP",[target])
+                                cl.createGroup("ボックスチェックボックス",[target]) # KALAU MAU BUAT BANYAK SILAHKAN TAMBAHIN SESUKA KALIAN :>
+                                cl.createGroup("ボックスチェックボックス",[target]) # HANYA SPAM VIA CONTACT
+                                cl.createGroup("ボックスチェックボックス",[target])
                                 cl.sendText(kirim,"Spam Invite ke " + korban + "\nSUCCESS..")
                                 Squad['SpamInvite'] = False
                             except:             
@@ -859,7 +861,7 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == "speed":
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 no = time.time()
-                                cl.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
+                                cl.sendText("u31d8aba9dff04c75242f2a2097b8adae", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
 
@@ -882,7 +884,7 @@ def RIDEN_FAST_USER(fast):
                                     wi = wi + 1
                                     end = '\n'
                                     sekawan += str(wi) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendText(kirim,"RFU SEKAWAN\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s ) TEAM SEKAWAN" %(str(len(Owner)+len(Squad["Admin"]))))                                
+                                cl.sendText(kirim,"ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s ) ᴀʜʟɪ ᴋᴜʙᴜʀ" %(str(len(Owner)+len(Squad["Admin"]))))                                
 
                         elif rfuText.lower() == "leaveall grup":
                             if user in RfuSekawan or user in Squad["Admin"]:
@@ -1407,7 +1409,7 @@ def RIDEN_FAST_USER(fast):
                                 cll = cl.getProfile()
                                 cll.displayName = change
                                 cl.updateProfile(cll)
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u31d8aba9dff04c75242f2a2097b8adae"
                                 cl.mentionWithRFU(kirim,owner," Update Name Success","\n Change to " + str(change))
 
                         elif rfuText.lower().startswith("changebio: "):
@@ -1484,34 +1486,34 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == 'status':
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 try:
-                                    hasil = "Status Bot\n"
-                                    if Squad["autoAdd"] == True: hasil += "\nAuto Add ( on )"
-                                    else: hasil += "\nAuto Add ( off )"
-                                    if Squad["autoJoin"] == True: hasil += "\nAuto Join ( on )"
-                                    else: hasil += "\nAuto Join ( off )"
-                                    if Squad["AutoReject"] == True: hasil += "\nAuto Reject Room ( on )"
-                                    else: hasil += "\nAuto Reject Room ( off )"
-                                    if Squad["AutojoinTicket"] == True: hasil += "\nAuto Join Ticket ( on )"
-                                    else: hasil += "\nAuto Join Ticket ( off )"
-                                    if Squad["autoRead"] == True: hasil += "\nAuto Read ( on )"
-                                    else: hasil += "\nAuto Read ( off )"
-                                    if Squad["AutoRespon"] == True: hasil += "\nDetect Mention ( on )"
-                                    else: hasil += "\nDetect Mention ( off )"
-                                    if Squad["KickRespon"] == True: hasil += "\nDetect Mention ( on )"
-                                    else: hasil += "\nDetect Kick Mention ( off )"
-                                    if Squad["Contact"] == True: hasil += "\nCheck Contact ( on )"
-                                    else: hasil += "\nCheck Contact ( off )"
-                                    if Squad["Timeline"] == True: hasil += "\nCheck Post Timeline ( on )"
-                                    else: hasil += "\nCheck Post ( off )"
-                                    if Squad["IDSticker"] == True: hasil += "\nCheck Sticker ( on )"
-                                    else: hasil += "\nCheck Sticker ( off )"
-                                    if Squad["UnsendPesan"] == True: hasil += "\nUnsend Message ( on )"
-                                    else: hasil += "\nUnsend Message ( off )"
-                                    if Squad["KickOn"] == True: hasil += "\nKick All Member ( on )"
-                                    else: hasil += "\nKick All Member ( off )"
-                                    if Squad["SpamInvite"] == True: hasil += "\nSpam invite via contact ( on )"
-                                    else: hasil += "\nSpam invite Via Contact ( off )"
-                                    hasil += "\n\nStatus Bot"
+                                    hasil = "🎭 Status Bot 🎭\n"
+                                    if Squad["autoAdd"] == True: hasil += "\n🔓 Auto Add ( on )"
+                                    else: hasil += "\n🔐 Auto Add ( off )"
+                                    if Squad["autoJoin"] == True: hasil += "\n🔓 Auto Join ( on )"
+                                    else: hasil += "\n🔐 Auto Join ( off )"
+                                    if Squad["AutoReject"] == True: hasil += "\n🔓 Auto Reject Room ( on )"
+                                    else: hasil += "\n🔐 Auto Reject Room ( off )"
+                                    if Squad["AutojoinTicket"] == True: hasil += "\n🔓 Auto Join Ticket ( on )"
+                                    else: hasil += "\n🔐 Auto Join Ticket ( off )"
+                                    if Squad["autoRead"] == True: hasil += "\n🔓 Auto Read ( on )"
+                                    else: hasil += "\n🔐 Auto Read ( off )"
+                                    if Squad["AutoRespon"] == True: hasil += "\n🔓 Detect Mention ( on )"
+                                    else: hasil += "\n🔐 Detect Mention ( off )"
+                                    if Squad["KickRespon"] == True: hasil += "\n🔓 Detect Mention ( on )"
+                                    else: hasil += "\n🔐 Detect Kick Mention ( off )"
+                                    if Squad["Contact"] == True: hasil += "\n🔓 Check Contact ( on )"
+                                    else: hasil += "\n🔐 Check Contact ( off )"
+                                    if Squad["Timeline"] == True: hasil += "\n🔓 Check Post Timeline ( on )"
+                                    else: hasil += "\n🔐 Check Post ( off )"
+                                    if Squad["IDSticker"] == True: hasil += "\n🔓 Check Sticker ( on )"
+                                    else: hasil += "\n🔐 Check Sticker ( off )"
+                                    if Squad["UnsendPesan"] == True: hasil += "\n🔓 Unsend Message ( on )"
+                                    else: hasil += "\n🔐 Unsend Message ( off )"
+                                    if Squad["KickOn"] == True: hasil += "\n🔓 Kick All Member ( on )"
+                                    else: hasil += "\n🔐 Kick All Member ( off )"
+                                    if Squad["SpamInvite"] == True: hasil += "\n🔓 Spam invite via contact ( on )"
+                                    else: hasil += "\n🔐 Spam invite Via Contact ( off )"
+                                    hasil += "\n\n📤 Status Bot 📤"
                                     cl.sendMessage(kirim, str(hasil))
                                 except Exception as error:
                                     cl.sendMessage(kirim, str(error))
@@ -2159,7 +2161,7 @@ def RIDEN_FAST_USER(fast):
 
                         elif rfuText.lower() == 'kalender':
                             if user in RfuSekawan or user in Squad["Admin"]:
-                                tz = pytz.timezone("Asia/Makassar")
+                                tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                                 hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
