@@ -1,7 +1,7 @@
 {
     "Admin": {
-        "u2fd9d66d7006f6dac03dc94950fa83c8": true,
-        "uc721ad1f11fb7e128453ba5a27424998": true
+        "u31d8aba9dff04c75242f2a2097b8adae": true,
+        "u9f478c580a9c4e1de5e407e9b10c2da1": true
     },
     "AdminDel": false,
     "Adminadd": false,
@@ -13,7 +13,7 @@
     "Contact": false,
     "ContactAdd": {},
     "Copy": false,
-    "GName": "Ardian Purnama",
+    "GName": "ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴘʜɪᴇ™",
     "Gift": false,
     "IDSticker": false,
     "Invite": false,
@@ -21,9 +21,9 @@
     "Leave": false,
     "Mic": false,
     "MicDel": false,
-    "PesanAdd": "Terima Kasih Sudah Add Saya",
+    "PesanAdd": "ᵗᵉʳⁱᵐᵃ ᵏᵃˢⁱʰ ᵗᵉˡᵃʰ ᵐᵉⁿᵃᵐᵇᵃʰᵏᵃⁿ ˢᵃʸᵃ ˢᵉᵇᵃᵍᵃⁱ ᵗᵉᵐᵃⁿ",
     "ROM": {
-        "c9b4a3be1db8c489d3df7f23a43f101b9": {}
+        "ce61eb544e5e36cd48aa8020c11aa96f8": {}
     },
     "Steal": false,
     "Timeline": false,
@@ -31,9 +31,9 @@
     "UnsendPesan": false,
     "Upfoto": false,
     "UpfotoGroup": false,
-    "WcText": "Welcome My Friend",
+    "WcText": "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍʏ ᴢᴏɴᴇ",
     "Welcome": false,
-    "WvText": "See You My Friend",
+    "WvText": "ꜱᴇᴇ ᴜ ᴍʏ ʟᴏᴠᴇʟʏ",
     "autoAdd": true,
     "autoBlock": false,
     "autoJoin": false,
