@@ -8,7 +8,7 @@ from multiprocessing import Pool, Process
 from ffmpy import FFmpeg
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pytz, wikipedia, pafy, youtube_dl, atexit
 
-print ("\n\n ---  WELCOME TO RFU SEKAWAN  ---\n")
+print ("\n\n ---  ᴡᴇʟᴄᴏᴍᴇ ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ  ---\n")
 
 cl = RIDEN()
 #cl = RIDEN(authTokenRFU="YOUR TOKEN")
@@ -34,7 +34,7 @@ riden3.log("YOUR TOKEN : {}".format(str(riden3.authToken)))
 channel = RIDENChannel(riden3,riden3.server.CHANNEL_ID['LINE_TIMELINE'])
 riden3.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
-print ("LOGIN SUCCESS RFU")
+print ("ᴀɴᴅᴀ ᴛᴇʟᴀʜ ʟᴏɢɪɴ ᴛᴏ ɴᴇxᴛ ᴀ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴀʜʟɪ ᴋᴜʙᴜʀ")
 
 clProfile = cl.getProfile()
 clSettings = cl.getSettings()
@@ -46,7 +46,7 @@ JSMID1 = riden1.profile.mid
 JSMID2 = riden2.profile.mid
 JSMID3 = riden3.profile.mid
 RfuBot=[mid,JSMID1,JSMID2,JSMID3]
-Owner=["uc721ad1f11fb7e128453ba5a27424998","u2fd9d66d7006f6dac03dc94950fa83c8"]
+Owner=["u31d8aba9dff04c75242f2a2097b8adae","u9f478c580a9c4e1de5e407e9b10c2da1"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -59,7 +59,7 @@ Squad = {
     "UnsendPesan":False,
     "SpamInvite":False,
     "Contact":False,
-    "GName":"Ardian Purnama",
+    "GName":"ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴘʜɪᴇ",
     "AutoRespon":False,
     "KickRespon":False,
     "KillOn":False,
@@ -71,7 +71,7 @@ Squad = {
     "Invite":False,
     "Copy":False,
     "autoAdd":True,
-    "PesanAdd":"Terima Kasih Sudah Add Saya",
+    "PesanAdd": "ᵀᵉʳⁱᵐᵃ ᵏᵃˢⁱʰ ˢᵘᵈᵃʰ ᵐᵉⁿᵃᵐᵇᵃʰᵏᵃⁿ ˢᵃʸᵃ ˢᵉᵇᵃᵍᵃⁱ ᵗᵉᵐᵃⁿ ,ʲⁱᵏᵃ ᵃⁿᵈᵃ ᵐᵉʳᵃˢᵃ ᵗⁱᵈᵃᵏ ⁱⁿᵍⁱⁿ ᵐᵉⁿᵈᵃᵖᵃᵗᵏᵃⁿ ᵖᵉᵐᵇᵉʳⁱᵗᵃʰᵘᵃⁿ ˢᴵᴸᴬᴴᴷᴬᴺ ᵇᵃⁿᵗⁱⁿᵍ ʰᵖ ᵃⁿᵈᵃ ᵈⁱʲᵃᵐⁱⁿ ᵍᵃᵏ ᵃᵈᵃ ⁿᵒᵗⁱᶠ ˡᵃᵍⁱ.",
     "ContactAdd":{},
     "autoBlock":False,
     "autoJoin":True,
@@ -82,9 +82,9 @@ Squad = {
     "Timeline":False,
     "Welcome":False,
     "BackupBot":True,
-    "WcText": "Welcome My Friend",
+    "WcText": "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍʏ ᴢᴏɴᴇ",
     "Leave":False,
-    "WvText": "See You My Friend",
+    "WvText": "ꜱᴇᴇ ʏᴏᴜ ᴍʏ ʟᴏᴠᴇʟʏ",
     "Mic":False,
     "MicDel":False,
     "Adminadd":False,
@@ -99,8 +99,8 @@ Squad = {
     "Unban":False,
     "AddMention":True,
     "Admin": {
-        "uc721ad1f11fb7e128453ba5a27424998":True,  #TARO MID ADMIN NYA DISINI
-        "u2fd9d66d7006f6dac03dc94950fa83c8":True
+        "u31d8aba9dff04c75242f2a2097b8adae":True,  #TARO MID ADMIN NYA DISINI
+        "u9f478c580a9c4e1de5e407e9b10c2da1":True
     },
 }
 
@@ -164,129 +164,131 @@ RfuCctv={
 }
 
 Help ="""
-  GENERAL PYTHON 3 
-         COMMAND 
+💻 GENERAL PYTHON3
 
-me
-my name
-my bio
-my picture
-my cover
-my video
-speed
-responsename
-my bot
-my team
-spam on [jmlah teks]
-cekmkd: [mid]
-banlock [@]
-banlist
-contact ban
-ban:on
-unban:on
-clear ban
-blocklist
-friendlist
-friendlist mid
-mid [@]
-profile [@]
-runtime
-broadcast:
-contactbc:
-adminadd [@]
-admindel [@]
-admin:add-on
-admin:del-on
-changename:
-changenameall:
-changebio:
-changebioall:
-remove pesan
-restart
-bot logout
-kick [@]
-status
-allprotect on/off
-backup on/off
-unsend on/off
-changepp on/off
-changeppbot on/off
-timeline on/off
-autojoin on/off
-autoreject on/off
-auto jointicket on/off
-gift:on/off
-copy on/off
-clone [@]
-comeback
-steal on/off
-contact on/off
-mic:add-on
-mic:del-on
-mimic on/off
-mimiclist
-refresh
-___[ GROUP ]___
-guard
-riden bye
-leaveall grup
-kick [on,off->kickall]
-invite on/off
-kill on/off
-rejectall grup
-lurking on/off/reset
-lurking read
-sider on/off
-mentionall
-welcome on/off
-changewelcome: [teks]
-leave on/off
-changeleave: [teks]
-memberlist
-link on/off
-my grup
-r1 grup
-r2 grup
-r3 grup
-gurl
-gcreator
-invite gcreator
-ginfo
-grup id
-cfotogrup on/off
-spaminvite on/off
-___[ MEDIA ]____
-topnews
-data birth:
-urban:
-sslink:
-maps:
-cekcuaca:
-jadwalshalat:
-idline:
-say-id:
-say-en:
-say-jp:
-say-ar:
-say-ko:
-apakah:
-kapan:
-wikipedia:
-kalender
-image:
-youtube:
-___[ TRANSLATOR ]___
-indonesian:
-english:
-korea:
-japan:
-thailand:
-arab:
-malaysia:
-jawa:
+   ⚙ COMMAND ⚙
+📲 me
+📲 my name
+📲 my bio
+📲 my picture
+📲 my cover
+📲 my video
+📲 speed
+📲 responsename
+📲 my bot
+📲 my team
+📲 spam on [jmlah teks]
+📲 cekmkd: [mid]
+📲 banlock [@]
+📲 banlist
+📲 contact ban
+📲 ban:on
+📲 unban:on
+📲 clear ban
+📲 blocklist
+📲 friendlist
+📲 friendlist mid
+📲 mid [@]
+📲 profile [@]
+📲 runtime
+📲 broadcast:
+📲 contactbc:
+📲 adminadd [@]
+📲 admindel [@]
+📲 admin:add-on
+📲 admin:del-on
+📲 changename:
+📲 changenameall:
+📲 changebio:
+📲 changebioall:
+📲 remove pesan
+📲 restart
+📲 bot logout
+📲 kick [@]
+📲 status
+📲 allprotect on/off
+📲 backup on/off
+📲 unsend on/off
+📲 changepp on/off
+📲 changeppbot on/off
+📲 timeline on/off
+📲 autojoin on/off
+📲 autoreject on/off
+📲 auto jointicket on/off
+📲 gift:on/off
+📲 copy on/off
+📲 clone [@]
+📲 comeback
+📲 steal on/off
+📲 contact on/off
+📲 mic:add-on
+📲 mic:del-on
+📲 mimic on/off
+📲 mimiclist
+📲 refresh
 
-         THANKS TO 
-       RFU SEKAWAN
+   [🔐 GROUP 🔐]
+🛅 guard
+🛅 riden bye
+🛅 leaveall grup
+🛅 kick [on,off->kickall]
+🛅 invite on/off
+🛅 kill on/off
+🛅 rejectall grup
+🛅 lurking on/off/reset
+🛅 lurking read
+🛅 sider on/off
+🛅 mentionall
+🛅 welcome on/off
+🛅 changewelcome: [teks]
+🛅 leave on/off
+🛅 changeleave: [teks]
+🛅 memberlist
+🛅 link on/off
+🛅 my grup
+🛅 r1 grup
+🛅 r2 grup
+🛅 r3 grup
+🛅 gurl
+🛅 gcreator
+🛅 invite gcreator
+🛅 ginfo
+🛅 grup id
+🛅 cfotogrup on/off
+🛅 spaminvite on/off
+
+   [📥 MEDIA 📥]
+🔎 topnews
+🔎 data birth:
+🔎 urban:
+🔎 sslink:
+🔎 maps:
+🔎 cekcuaca:
+🔎 jadwalshalat:
+🔎 idline:
+🔎 say-id:
+🔎 say-en:
+🔎 say-jp:
+🔎 say-ar:
+🔎 say-ko:
+🔎 apakah:
+🔎 kapan:
+🔎 wikipedia:
+🔎 kalender
+🔎 image:
+🔎 youtube:
+
+   [✍ TRANSLATE ✍]
+📝 indonesian:
+📝 english:
+📝 korea:
+📝 japan:
+📝 thailand:
+📝 arab:
+📝 malaysia:
+📝 jawa:
+
+🙏 ᴛʜᴀɴᴋꜱ ᴛᴏ ᴀʟʟᴀʜ ꜱᴡᴛ 🙏
 """"________________________"
 
 #------------------------------------------------ SCRIP DEF ----------------------------------------------------------#
