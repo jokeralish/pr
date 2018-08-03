@@ -1278,18 +1278,18 @@ def RIDEN_FAST_USER(fast):
                                 riden1.findAndAddContactsByMid(target)
                                 riden2.findAndAddContactsByMid(target)
                                 riden3.findAndAddContactsByMid(target)
-                                cl.createGroup("RIDEN SPAM GROUP",[target]) # KALAU MAU BUAT BANYAK SILAHKAN TAMBAHIN SESUKA KALIAN :>
-                                cl.createGroup("RIDEN SPAM GROUP",[target]) # HANYA SPAM VIA CONTACT
-                                cl.createGroup("RIDEN SPAM GROUP",[target])
-                                riden1.createGroup("RIDEN SPAM GROUP",[target])
-                                riden1.createGroup("RIDEN SPAM GROUP",[target])
-                                riden1.createGroup("RIDEN SPAM GROUP",[target])
-                                riden2.createGroup("RIDEN SPAM GROUP",[target])
-                                riden2.createGroup("RIDEN SPAM GROUP",[target])
-                                riden2.createGroup("RIDEN SPAM GROUP",[target])
-                                riden3.createGroup("RIDEN SPAM GROUP",[target])
-                                riden3.createGroup("RIDEN SPAM GROUP",[target])
-                                riden3.createGroup("RIDEN SPAM GROUP",[target])
+                                cl.createGroup("ボックスチェックボックス",[target]) # KALAU MAU BUAT BANYAK SILAHKAN TAMBAHIN SESUKA KALIAN :>
+                                cl.createGroup("ボックスチェックボックス",[target]) # HANYA SPAM VIA CONTACT
+                                cl.createGroup("ボックスチェックボックス",[target])
+                                riden1.createGroup("ボックスチェックボックス",[target])
+                                riden1.createGroup("ボックスチェックボックス",[target])
+                                riden1.createGroup("ボックスチェックボックス",[target])
+                                riden2.createGroup("ボックスチェックボックス",[target])
+                                riden2.createGroup("ボックスチェックボックス",[target])
+                                riden2.createGroup("ボックスチェックボックス",[target])
+                                riden3.createGroup("ボックスチェックボックス",[target])
+                                riden3.createGroup("ボックスチェックボックス",[target])
+                                riden3.createGroup("ボックスチェックボックス",[target])
                                 cl.sendText(kirim,"Spam Invite ke " + korban + "\nSUCCESS..")
                                 Squad['SpamInvite'] = False
                             except:             
@@ -1334,19 +1334,19 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == "speed":
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 no = time.time()
-                                cl.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
+                                cl.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
                                 no1 = time.time()
-                                riden1.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
+                                riden1.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
                                 elapsed_time = time.time() - no1
                                 riden1.sendText(kirim, "%s" % (elapsed_time))
                                 no2 = time.time()
-                                riden2.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
+                                riden2.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
                                 elapsed_time = time.time() - no2
                                 riden2.sendText(kirim, "%s" % (elapsed_time))
                                 no3 = time.time()
-                                riden3.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
+                                riden3.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
                                 elapsed_time = time.time() - no3
                                 riden3.sendText(kirim, "%s" % (elapsed_time))
 
@@ -1356,7 +1356,7 @@ def RIDEN_FAST_USER(fast):
                                 team2 = riden1.getContact(JSMID1).displayName
                                 team3 = riden2.getContact(JSMID2).displayName
                                 team4 = riden3.getContact(JSMID3).displayName
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u31d8aba9dff04c75242f2a2097b8adae"
                                 cl.mentionWithRFU(kirim,owner," Ready On ","" + str(" ("+team1+")"))
                                 riden1.mentionWithRFU(kirim,owner," Ready On ","" + str(" ("+team2+")"))
                                 riden2.mentionWithRFU(kirim,owner," Ready On ","" + str(" ("+team3+")"))
@@ -1383,7 +1383,7 @@ def RIDEN_FAST_USER(fast):
                                     wi = wi + 1
                                     end = '\n'
                                     sekawan += str(wi) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendText(kirim,"RFU SEKAWAN\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s ) TEAM SEKAWAN" %(str(len(Owner)+len(Squad["Admin"]))))                                
+                                cl.sendText(kirim,"ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s ) ᴀʜʟɪ ᴋᴜʙᴜʀ" %(str(len(Owner)+len(Squad["Admin"]))))                                
 
                         elif rfuText.lower() == "guard":
                             if user in RfuSekawan or user in Squad["Admin"]:
@@ -1404,7 +1404,7 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == "riden bye":
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 ginfo = cl.getGroup(kirim)
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u31d8aba9dff04c75242f2a2097b8adae"
                                 riden1.mentionWithRFU(kirim,owner," Oke ","\n Good Bye" + str(" ("+ginfo.name+")"))
                                 riden3.leaveGroup(kirim)
                                 riden2.leaveGroup(kirim)
@@ -1953,13 +1953,13 @@ def RIDEN_FAST_USER(fast):
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 eltime = time.time() - mulai                                
                                 opn = " "+waktu(eltime)
-                                cl.sendText(kirim,"Connect to RFU SEKAWAN\nBot Active\n" + opn)                
+                                cl.sendText(kirim,"Connect to ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ\nBot Active\n" + opn)                
 
                         elif "Broadcast: " in rfuText:
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 bc = msg.text.replace("Broadcast: ","")
                                 gid = cl.getGroupIdsJoined()
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u31d8aba9dff04c75242f2a2097b8adae"
                                 for i in gid:
                                     cl.mentionWithRFU(i,owner," BROADCAST BY:","\n" + str(" ("+bc+")"))
 
@@ -1967,7 +1967,7 @@ def RIDEN_FAST_USER(fast):
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 bc = msg.text.replace("Contactbc: ","")
                                 gid = cl.getAllContactIds()
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u31d8aba9dff04c75242f2a2097b8adae"
                                 for i in gid:
                                     cl.mentionWithRFU(i,owner," BROADCAST BY:","\n" + str(" ("+bc+")"))
 
@@ -2012,7 +2012,7 @@ def RIDEN_FAST_USER(fast):
                                 cll = cl.getProfile()
                                 cll.displayName = change
                                 cl.updateProfile(cll)
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u31d8aba9dff04c75242f2a2097b8adae"
                                 cl.mentionWithRFU(kirim,owner," Update Name Success","\n Change to " + str(change))
 
                         elif "changebio: " in rfuText.lower():
@@ -2074,7 +2074,7 @@ def RIDEN_FAST_USER(fast):
                                     riden2.removeAllMessages(fast.param2)
                                     riden3.removeAllMessages(fast.param2)
                                     ginfo = cl.getGroup(kirim)
-                                    owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                    owner = "u31d8aba9dff04c75242f2a2097b8adae"
                                     cl.mentionWithRFU(kirim,owner," Remove Message Success ","\n In Grup" + str(" ("+ginfo.name+")"))
                                     riden1.mentionWithRFU(kirim,owner," Remove Message Success ","\n In Grup" + str(" ("+ginfo.name+")"))
                                     riden2.mentionWithRFU(kirim,owner," Remove Message Success ","\n In Grup" + str(" ("+ginfo.name+")"))
@@ -2186,46 +2186,46 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == 'status':
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 try:
-                                    hasil = "Status Bot\n"
-                                    if Squad["autoAdd"] == True: hasil += "\nAuto Add ( on )"
-                                    else: hasil += "\nAuto Add ( off )"
-                                    if Squad["autoJoin"] == True: hasil += "\nAuto Join ( on )"
-                                    else: hasil += "\nAuto Join ( off )"
-                                    if Squad["AutoReject"] == True: hasil += "\nAuto Reject Room ( on )"
-                                    else: hasil += "\nAuto Reject Room ( off )"
-                                    if Squad["AutojoinTicket"] == True: hasil += "\nAuto Join Ticket ( on )"
-                                    else: hasil += "\nAuto Join Ticket ( off )"
-                                    if Squad["autoRead"] == True: hasil += "\nAuto Read ( on )"
-                                    else: hasil += "\nAuto Read ( off )"
-                                    if Squad["AutoRespon"] == True: hasil += "\nDetect Mention ( on )"
-                                    else: hasil += "\nDetect Mention ( off )"
-                                    if Squad["KickRespon"] == True: hasil += "\nDetect Mention ( on )"
-                                    else: hasil += "\nDetect Kick Mention ( off )"
-                                    if Squad["Contact"] == True: hasil += "\nCheck Contact ( on )"
-                                    else: hasil += "\nCheck Contact ( off )"
-                                    if Squad["Timeline"] == True: hasil += "\nCheck Post Timeline ( on )"
-                                    else: hasil += "\nCheck Post ( off )"
-                                    if Squad["IDSticker"] == True: hasil += "\nCheck Sticker ( on )"
-                                    else: hasil += "\nCheck Sticker ( off )"
-                                    if Squad["UnsendPesan"] == True: hasil += "\nUnsend Message ( on )"
-                                    else: hasil += "\nUnsend Message ( off )"
+                                    hasil = "🔞 Status Bot 🔞\n"
+                                    if Squad["autoAdd"] == True: hasil += "\n🔊 Auto Add ( on )"
+                                    else: hasil += "\n🔇 Auto Add ( off )"
+                                    if Squad["autoJoin"] == True: hasil += "\n🔊 Auto Join ( on )"
+                                    else: hasil += "\n🔇 Auto Join ( off )"
+                                    if Squad["AutoReject"] == True: hasil += "\n🔊 Auto Reject Room ( on )"
+                                    else: hasil += "\n🔇 Auto Reject Room ( off )"
+                                    if Squad["AutojoinTicket"] == True: hasil += "\n🔊 Auto Join Ticket ( on )"
+                                    else: hasil += "\n🔇 Auto Join Ticket ( off )"
+                                    if Squad["autoRead"] == True: hasil += "\n🔊 Auto Read ( on )"
+                                    else: hasil += "\n🔇 Auto Read ( off )"
+                                    if Squad["AutoRespon"] == True: hasil += "\n🔊 Detect Mention ( on )"
+                                    else: hasil += "\n🔇 Detect Mention ( off )"
+                                    if Squad["KickRespon"] == True: hasil += "\n🔊 Detect Mention ( on )"
+                                    else: hasil += "\n🔇 Detect Kick Mention ( off )"
+                                    if Squad["Contact"] == True: hasil += "\n🔊 Check Contact ( on )"
+                                    else: hasil += "\n🔇 Check Contact ( off )"
+                                    if Squad["Timeline"] == True: hasil += "\n🔊 Check Post Timeline ( on )"
+                                    else: hasil += "\n🔇 Check Post ( off )"
+                                    if Squad["IDSticker"] == True: hasil += "\n🔊 Check Sticker ( on )"
+                                    else: hasil += "\n🔇 Check Sticker ( off )"
+                                    if Squad["UnsendPesan"] == True: hasil += "\n🔊 Unsend Message ( on )"
+                                    else: hasil += "\n🔇 Unsend Message ( off )"
                                     if RfuProtect["protect"] == True: hasil += "\nProtect Grup ( on )"
-                                    else: hasil += "\nProtect Grup ( off )"
-                                    if RfuProtect["linkprotect"] == True: hasil += "\nProtect Link Grup ( on )"
-                                    else: hasil += "\nProtect Link Grup ( off )"
-                                    if RfuProtect["inviteprotect"] == True: hasil += "\nProtect Invite Grup ( on )"
-                                    else: hasil += "\nProtect Invite Grup ( off )"
-                                    if RfuProtect["cancelprotect"] == True: hasil += "\nProtect Cancel Grup ( on )"
-                                    else: hasil += "\nProtect Cancel Grup ( off )"
-                                    if RfuProtect["ProtectCancelled"] == True: hasil += "\nProtect Cancel Member ( on )"
-                                    else: hasil += "\nProtect Cancel Member ( off )"
-                                    if Squad["BackupBot"] == True: hasil += "\nBackup Bot ( on )"
-                                    else: hasil += "\nBackup Bot ( off )"
-                                    if Squad["KickOn"] == True: hasil += "\nKick All Member ( on )"
-                                    else: hasil += "\nKick All Member ( off )"
-                                    if Squad["SpamInvite"] == True: hasil += "\nSpam invite via contact ( on )"
-                                    else: hasil += "\nSpam invite Via Contact ( off )"
-                                    hasil += "\n\nStatus Bot"
+                                    else: hasil += "\n🔇 Protect Grup ( off )"
+                                    if RfuProtect["linkprotect"] == True: hasil += "\n🔊 Protect Link Grup ( on )"
+                                    else: hasil += "\n🔇 Protect Link Grup ( off )"
+                                    if RfuProtect["inviteprotect"] == True: hasil += "\n🔊 Protect Invite Grup ( on )"
+                                    else: hasil += "\n🔇 Protect Invite Grup ( off )"
+                                    if RfuProtect["cancelprotect"] == True: hasil += "\n🔊 Protect Cancel Grup ( on )"
+                                    else: hasil += "\n🔇 Protect Cancel Grup ( off )"
+                                    if RfuProtect["ProtectCancelled"] == True: hasil += "\n🔊 Protect Cancel Member ( on )"
+                                    else: hasil += "\n🔇 Protect Cancel Member ( off )"
+                                    if Squad["BackupBot"] == True: hasil += "\n🔊 Backup Bot ( on )"
+                                    else: hasil += "\n🔇 Backup Bot ( off )"
+                                    if Squad["KickOn"] == True: hasil += "\n🔊 Kick All Member ( on )"
+                                    else: hasil += "\n🔇 Kick All Member ( off )"
+                                    if Squad["SpamInvite"] == True: hasil += "\n🔊 Spam invite via contact ( on )"
+                                    else: hasil += "\n🔇 Spam invite Via Contact ( off )"
+                                    hasil += "\n\n⛔ Status Bot ⛔"
                                     cl.sendMessage(kirim, str(hasil))
                                 except Exception as error:
                                     cl.sendMessage(kirim, str(error))
@@ -2794,7 +2794,7 @@ def RIDEN_FAST_USER(fast):
 
                         elif rfuText.lower() == 'kalender':
                             if user in RfuSekawan or user in Squad["Admin"]:
-                                tz = pytz.timezone("Asia/Makassar")
+                                tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                                 hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
