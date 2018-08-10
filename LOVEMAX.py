@@ -25,7 +25,7 @@ RIDEN = RIDENPoll(cl)
 Rfu = [cl]
 INDUK = cl.profile.mid
 RfuBot=[INDUK]
-Owner=["u31d8aba9dff04c75242f2a2097b8adae","u9f478c580a9c4e1de5e407e9b10c2da1"]
+Owner=["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -35,14 +35,14 @@ backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
 Squad = {
-    "UnsendPesan":False,
+    "UnsendPesan":True,
     "SpamInvite":False,
     "Contact":False,
     "GName":"ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴘʜɪᴇ",
     "AutoRespon":False,
     "KickRespon":False,
     "KillOn":False,
-    "KickOn":False,
+    "KickOn":True,
     "Upfoto":False,
     "UpfotoBot":False,
     "UpfotoGroup":False,
@@ -59,7 +59,7 @@ Squad = {
     "autoRead":False,
     "IDSticker":False,
     "Timeline":False,
-    "Welcome":False,
+    "Welcome":True,
     "BackupBot":True,
     "WcText": "ᴡᴇʟᴄᴏᴍᴇ ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ",
     "Leave":False,
@@ -77,7 +77,7 @@ Squad = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "u31d8aba9dff04c75242f2a2097b8adae":True #MID ADMIN
+        "u4862fe4b182b2fd194a3108e2f3662e8":True #MID ADMIN
     },
 }
 
@@ -861,7 +861,7 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == "speed":
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 no = time.time()
-                                cl.sendText("u31d8aba9dff04c75242f2a2097b8adae", ' ')
+                                cl.sendText("u4862fe4b182b2fd194a3108e2f3662e8", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
 
