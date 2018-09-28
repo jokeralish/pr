@@ -35,7 +35,7 @@ backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
 Squad = {
-    "UnsendPesan":True,
+    "UnsendPesan":False,
     "SpamInvite":False,
     "Contact":False,
     "GName":"",
@@ -63,7 +63,7 @@ Squad = {
     "BackupBot":True,
     "WcText": "welcome salkenyot",
     "Leave":False,
-    "LvText": "bay bay tiati dijalan ya...",
+    "LvText": "bay bay ✋✋ tiati dijalan ya...",
     "Mic":False,
     "MicDel":False,
     "Adminadd":False,
