@@ -132,125 +132,125 @@ RfuCctv={
     "Point3":{}
 }
 
-Help ="""💻 GENERAL PYTHON3 💻
+Help ="""🉐🉐 GENERAL PYTHON3 🉐🉐
 
-   ⚙ COMMAND ⚙
-📲 me
-📲 my name
-📲 my bio
-📲 my picture
-📲 my cover
-📲 my video
-📲 speed
-📲 rename
-📲 my bot
-📲 my team
-📲 stealname [@]
-📲 stealbio [@]
-📲 stealpict [@]
-📲 stealcover [@]
-📲 stealvideo [@]
-📲 stealmid [@]
-📲 profile [@]
-📲 spam on [jmlah teks]
-📲 cekmid: [mid]
-📲 banlock [@]
-📲 banlist
-📲 contact ban
-📲 clear ban
-📲 blocklist
-📲 friendlist
-📲 friendlist mid
-📲 runtime
-📲 broadcast:
-📲 contactbc:
-📲 adminadd [@]
-📲 admindel [@]
-📲 admin:add-on
-📲 admin:del-on
-📲 changename:
-📲 changebio:
-📲 remove pesan
-📲 restart
-📲 bot logout
-📲 kick [@]
-📲 status
-📲 unsend on/off
-📲 changepp on/off
-📲 timeline on/off
-📲 autojoin on/off
-📲 autoreject on/off
-📲 auto jointicket on/off
-📲 gift:on/off
-📲 copy on/off
-📲 clone [@]
-📲 comeback
-📲 steal on/off
-📲 contact on/off
-📲 mic:add-on
-📲 mic:del-on
-📲 mimic on/off
-📲 mimiclist
-📲 refresh
+   🈴 COMMAND 🈴
+🈴 me
+🈴 my name
+🈴 my bio
+🈴 my picture
+🈴 my cover
+🈴 my video
+🈴 speed
+🈴 rename
+🈴 my bot
+🈴 my team
+🈴 stealname [@]
+🈴 stealbio [@]
+🈴 stealpict [@]
+🈴 stealcover [@]
+🈴 stealvideo [@]
+🈴 stealmid [@]
+🈴 profile [@]
+🈴 spam on [jmlah teks]
+🈴 cekmid: [mid]
+🈴 banlock [@]
+🈴 banlist
+🈴 contact ban
+🈴 clear ban
+🈴 blocklist
+🈴 friendlist
+🈴 friendlist mid
+🈴 runtime
+🈴 broadcast:
+🈴 contactbc:
+🈴 adminadd [@]
+🈴 admindel [@]
+🈴 admin:add-on
+🈴 admin:del-on
+🈴 changename:
+🈴 changebio:
+🈴 remove pesan
+🈴 restart
+🈴 bot logout
+🈴 kick [@]
+🈴 status
+🈴 unsend on/off
+🈴 changepp on/off
+🈴 timeline on/off
+🈴 autojoin on/off
+🈴 autoreject on/off
+🈴 auto jointicket on/off
+🈴 gift:on/off
+🈴 copy on/off
+🈴 clone [@]
+🈴 comeback
+🈴 steal on/off
+🈴 contact on/off
+🈴 mic:add-on
+🈴 mic:del-on
+🈴 mimic on/off
+🈴 mimiclist
+🈴 refresh
 
-   [🔐 GROUP 🔐]
-🛅 leaveall grup
-🛅 kick [on,off->kickall]
-🛅 invite on/off
-🛅 kill on/off
-🛅 rejectall grup
-🛅 lurking on/off/reset
-🛅 lurking read
-🛅 sider on/off
-🛅 mentionall
-🛅 welcome on/off
-🛅 changewelcome:
-🛅 leave on/off
-🛅 changeleave:
-🛅 memberlist
-🛅 link on/off
-🛅 my grup
-🛅 gurl
-🛅 gcreator
-🛅 invite gcreator
-🛅 ginfo
-🛅 grup id
-🛅 cfotogrup on/off
-🛅 spaminvite on/off
-🛅 announce
+   [🉑 GROUP 🉑]
+🈳 leaveall grup
+🈳 kick [on,off->kickall]
+🈳 invite on/off
+🈳 kill on/off
+🈳 rejectall grup
+🈳 lurking on/off/reset
+🈳 lurking read
+🈳 sider on/off
+🈳 cipokk/tag member
+🈳 welcome on/off
+🈳 changewelcome:
+🈳 leave on/off
+🈳 changeleave:
+🈳 memberlist
+🈳 link on/off
+🈳 my grup
+🈳 gurl
+🈳 gcreator
+🈳 invite gcreator
+🈳 ginfo
+🈳 grup id
+🈳 cfotogrup on/off
+🈳 spaminvite on/off
+🈳 announce
 
-   [📥 MEDIA 📥]
-🔎 topnews
-🔎 data birth:
-🔎 urban:
-🔎 sslink:
-🔎 maps:
-🔎 cekcuaca:
-🔎 jadwalshalat:
-🔎 idline:
-🔎 say-id:
-🔎 say-en:
-🔎 say-jp:
-🔎 say-ar:
-🔎 say-ko:
-🔎 apakah:
-🔎 kapan:
-🔎 wikipedia:
-🔎 kalender
-🔎 image:
-🔎 youtube:
+   [🉐 MEDIA 🉐]
+🉐 topnews
+🉐 data birth:
+🉐 urban:
+🉐 sslink:
+🉐 maps:
+🉐 cekcuaca:
+🉐 jadwalshalat:
+🉐 idline:
+🉐 say-id:
+🉐 say-en:
+🉐 say-jp:
+🉐 say-ar:
+🉐 say-ko:
+🉐 apakah:
+🉐 kapan:
+🉐 wikipedia:
+🉐 kalender
+🉐 image:
+🉐 youtube:
 
-   [✍ TRANSLATE ✍]
-📝 indonesian:
-📝 english:
-📝 korea:
-📝 japan:
-t📝 hailand:
-📝 arab:
-📝 malaysia:
-📝 jawa:
+   [🈸 TRANSLATE 🈸]
+🈸 indonesian:
+🈸 english:
+🈸 korea:
+🈸 japan:
+🈸 hailand:
+🈸 arab:
+🈸 malaysia:
+🈸 jawa:
 
-🙏 ᴛʜᴀɴᴋꜱ ᴛᴏ ᴀʟʟᴀʜ ꜱᴡᴛ 🙏
+🈯 ᴛʜᴀɴᴋꜱ ᴛᴏ ᴀʟʟᴀʜ ꜱᴡᴛ 🈯
 """"________________________"
 
 #------------------------------------------------ SCRIP DEF ----------------------------------------------------------#
@@ -1288,7 +1288,7 @@ def RIDEN_FAST_USER(fast):
                                 else:
                                     cl.sendText(kirim, "Off not Going")
 
-                        elif rfuText.lower().startswith("mentionall"):
+                        elif rfuText.lower().startswith("cipokk"):
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 gname = cl.getGroup(kirim)
                                 local = [contact.mid for contact in gname.members]
