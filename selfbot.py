@@ -8,7 +8,7 @@ from multiprocessing import Pool, Process
 from ffmpy import FFmpeg
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pytz, wikipedia, pafy, youtube_dl, atexit
 
-print ("\n\n ---  ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ  ---\n")
+print ("\n\n ---  welcome  ---\n")
 
 cl = RIDEN()
 #cl = RIDEN(authTokenRFU="YOUR TOKEN")
@@ -16,7 +16,7 @@ cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = RIDENChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
-print ("ᴀɴᴅᴀ ᴛᴇʟᴀʜ ʟᴏɢɪɴ ᴛᴏ ɴᴇxᴛ ᴀ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴀʜʟɪ ᴋᴜʙᴜʀ")
+print ("---LOGIN SUCCES---")
 
 clProfile = cl.getProfile()
 clSettings = cl.getSettings()
@@ -25,7 +25,7 @@ RIDEN = RIDENPoll(cl)
 Rfu = [cl]
 INDUK = cl.profile.mid
 RfuBot=[INDUK]
-Owner=["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
+Owner=["u0098bf622a9b8849a9e53d7844bb12f8"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -61,9 +61,9 @@ Squad = {
     "Timeline":False,
     "Welcome":True,
     "BackupBot":True,
-    "WcText": "ᴡᴇʟᴄᴏᴍᴇ ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ",
+    "WcText": "welkome salkenyot",
     "Leave":False,
-    "LvText": "ꜱᴇᴇ ʏᴏᴜ ᴀʜʟɪ ᴋᴜʙᴜʀ",
+    "LvText": "bay bay tiati dijalan ya...",
     "Mic":False,
     "MicDel":False,
     "Adminadd":False,
@@ -77,7 +77,7 @@ Squad = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "u4862fe4b182b2fd194a3108e2f3662e8":True #MID ADMIN
+        "u0098bf622a9b8849a9e53d7844bb12f8":True #MID ADMIN
     },
 }
 
@@ -250,7 +250,7 @@ Help ="""🉐🉐 GENERAL PYTHON3 🉐🉐
 🈸 malaysia:
 🈸 jawa:
 
-🈯 ᴛʜᴀɴᴋꜱ ᴛᴏ ᴀʟʟᴀʜ ꜱᴡᴛ 🈯
+🈯 RAMBATE RATA HAYO 🈯
 """"________________________"
 
 #------------------------------------------------ SCRIP DEF ----------------------------------------------------------#
