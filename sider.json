@@ -1,7 +1,7 @@
 {
     "Admin": {
-        "u31d8aba9dff04c75242f2a2097b8adae": true,
-        "u9f478c580a9c4e1de5e407e9b10c2da1": true
+        "c66a646a8b5ecc8e0ebf74d920670f02d": true,
+        "c66a646a8b5ecc8e0ebf74d920670f02d": true
     },
     "AdminDel": false,
     "Adminadd": false,
@@ -23,7 +23,7 @@
     "MicDel": false,
     "PesanAdd": "ᵗᵉʳⁱᵐᵃ ᵏᵃˢⁱʰ ᵗᵉˡᵃʰ ᵐᵉⁿᵃᵐᵇᵃʰᵏᵃⁿ ˢᵃʸᵃ ˢᵉᵇᵃᵍᵃⁱ ᵗᵉᵐᵃⁿ",
     "ROM": {
-        "ce61eb544e5e36cd48aa8020c11aa96f8": {}
+        "c66a646a8b5ecc8e0ebf74d920670f02d": {}
     },
     "Steal": false,
     "Timeline": false,
@@ -41,12 +41,12 @@
     "detectMention": false,
     "kickMention": false,
     "readMember": {
-        "c9b4a3be1db8c489d3df7f23a43f101b9": ""
+        "c66a646a8b5ecc8e0ebf74d920670f02d": ""
     },
     "readPoint": {
-        "c9b4a3be1db8c489d3df7f23a43f101b9": "8178036848553"
+        "c66a646a8b5ecc8e0ebf74d920670f02d": "8178036848553"
     },
     "readTime": {
-        "c9b4a3be1db8c489d3df7f23a43f101b9": "19:02:54"
+        "c66a646a8b5ecc8e0ebf74d920670f02d": "19:02:54"
     }
 }

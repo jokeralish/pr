@@ -25,7 +25,7 @@ RIDEN = RIDENPoll(cl)
 Rfu = [cl]
 INDUK = cl.profile.mid
 RfuBot=[INDUK]
-Owner=["u0098bf622a9b8849a9e53d7844bb12f8"]
+Owner=["c66a646a8b5ecc8e0ebf74d920670f02d"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -50,7 +50,7 @@ Squad = {
     "Invite":False,
     "Copy":False,
     "autoAdd":True,
-    "PesanAdd":"ᵗᵉʳⁱᵐᵃ ᵏᵃˢⁱʰ ˢᵘᵈᵃʰ ᵐᵉⁿᵃᵐᵇᵃʰᵏᵃⁿ ˢᵃʸᵃ ˢᵉᵇᵃᵍᵃⁱ ᵗᵉᵐᵃⁿ ,ʲⁱᵏᵃ ᵃⁿᵈᵃ ᵐᵉʳᵃˢᵃ ᵗⁱᵈᵃᵏ ⁱⁿᵍⁱⁿ ᵐᵉⁿᵈᵃᵖᵃᵗᵏᵃⁿ ᵖᵉᵐᵇᵉʳⁱᵗᵃʰᵘᵃⁿ ˢᴵᴸᴬᴴᴷᴬᴺ ᵇᵃⁿᵗⁱⁿᵍ ʰᵖ ᵃⁿᵈᵃ ,ᵈⁱʲᵃᵐⁱⁿ ᵍᵃᵏ ᵃᵈᵃ ⁿᵒᵗⁱᶠ ˡᵃᵍⁱ",
+    "PesanAdd":"ᵗᵉʳⁱᵐᵃ ᵏᵃˢⁱʰ ˢᵘᵈᵃʰ ᵐᵉⁿᵃᵐᵇᵃʰᵏᵃⁿ ˢᵃʸᵃ ˢᵉᵇᵃᵍᵃⁱ ᵗᵉᵐᵃⁿ ,ʲⁱᵏᵃ ᵃⁿᵈᵃ ᵐᵉʳᵃˢᵃ ᵗⁱᵈᵃᵏ ⁱⁿᵍⁱⁿ ᵐᵉⁿᵈᵃᵖᵃᵗᵏᵃⁿ ᵖᵉᵐᵇᵉʳⁱᵗᵃʰᵘᵃⁿ ˢᴵᴸᴬᴴᴷᴬᴺ ᵇᵃⁿᵗⁱⁿᵍ ʰᵖ ᵃⁿᵈᵃ ,ᵈⁱʲᵃᵐⁱⁿ ᵍᵃᵏ ᵃᵈᵃ ⁿᵒᵗⁱᶠ ˡᵃᵍⁱ line.me/ti/p/~infoalish",
     "ContactAdd":{},
     "autoBlock":False,
     "autoJoin":True,
@@ -61,9 +61,9 @@ Squad = {
     "Timeline":False,
     "Welcome":True,
     "BackupBot":True,
-    "WcText": "welcome salkenyot",
+    "WcText": "خوش اومدی عزیزم",
     "Leave":False,
-    "LvText": "bay bay ✋✋ tiati dijalan ya...",
+    "LvText": " ✋✋  line.me/ti/p/~infoalish.",
     "Mic":False,
     "MicDel":False,
     "Adminadd":False,
@@ -77,7 +77,7 @@ Squad = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "u0098bf622a9b8849a9e53d7844bb12f8":True #MID ADMIN
+        "c66a646a8b5ecc8e0ebf74d920670f02d":True #MID ADMIN
     },
 }
 
@@ -132,7 +132,7 @@ RfuCctv={
     "Point3":{}
 }
 
-Help ="""🉐🉐 GENERAL PYTHON3 🉐🉐
+Help ="""🉐🉐 ALISH JOKER🉐🉐
 
    🈴 COMMAND 🈴
 🈴 me
@@ -250,7 +250,7 @@ Help ="""🉐🉐 GENERAL PYTHON3 🉐🉐
 🈸 malaysia:
 🈸 jawa:
 
-🉐🉐 RAMBATE RATA HAYO 🉐🉐
+🉐🉐  🉐🉐
 """"________________________"
 
 #------------------------------------------------ SCRIP DEF ----------------------------------------------------------#
@@ -331,7 +331,7 @@ def RIDEN_FAST_USER(fast):
             if Squad["Welcome"] == True:
                 if fast.param2 not in Rfu:
                     ginfo = cl.getGroup(fast.param1)
-                    cl.mentionWithRFU(fast.param1,fast.param2," Hii","" + "\n " + str(Squad['WcText']))
+                    cl.mentionWithRFU(fast.param1,fast.param2," سلام","" + "\n " + str(Squad['WcText']))
                     cl.sendMessage(fast.param1, None, contentMetadata={'mid':fast.param2}, contentType=13)
                     print ("MEMBER HAS JOIN THE GROUP")
 
@@ -339,7 +339,7 @@ def RIDEN_FAST_USER(fast):
             if Squad["Leave"] == True:
                 if fast.param2 not in Rfu:
                     ginfo = cl.getGroup(fast.param1)
-                    cl.mentionWithRFU(fast.param1,fast.param2," Hii","" + "\n " + str(Squad['LvText']))
+                    cl.mentionWithRFU(fast.param1,fast.param2," خداحافظ","" + "\n " + str(Squad['LvText']))
                     cl.sendMessage(fast.param1, None, contentMetadata={'mid':fast.param2}, contentType=13)
                     print ("MEMBER HAS LEFT THE GROUP")
 
@@ -861,7 +861,7 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == "speed":
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 no = time.time()
-                                cl.sendText("u4862fe4b182b2fd194a3108e2f3662e8", ' ')
+                                cl.sendText("c66a646a8b5ecc8e0ebf74d920670f02d", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
 
@@ -872,8 +872,8 @@ def RIDEN_FAST_USER(fast):
 
                         elif rfuText.lower() == "my team":
                             if user in RfuSekawan or user in Squad["Admin"]:
-                                rfu = ""
-                                sekawan = ""
+                                rfu = "c66a646a8b5ecc8e0ebf74d920670f02d"
+                                sekawan = "c66a646a8b5ecc8e0ebf74d920670f02d"
                                 wa = 0
                                 wi = 0
                                 for m_id in Owner:
@@ -1432,7 +1432,7 @@ def RIDEN_FAST_USER(fast):
 
                         elif rfuText.lower() == 'restart':
                             if user in RfuSekawan:
-                                cl.sendText(kirim, 'Restarting Server Prosses..')
+                                cl.sendText(kirim, 'ᴀʟɪsʜ ᴊᴏᴋᴇʀ..')
                                 print ("Restarting Server")
                                 restart_program()
 
@@ -1513,7 +1513,7 @@ def RIDEN_FAST_USER(fast):
                                     else: hasil += "\n🔐 Kick All Member ( off )"
                                     if Squad["SpamInvite"] == True: hasil += "\n🔓 Spam invite via contact ( on )"
                                     else: hasil += "\n🔐 Spam invite Via Contact ( off )"
-                                    hasil += "\n\n📤 Status Bot 📤"
+                                    hasil += "\n\n📤 ᴀʟɪsʜ ᴊᴏᴋᴇʀ📤"
                                     cl.sendMessage(kirim, str(hasil))
                                 except Exception as error:
                                     cl.sendMessage(kirim, str(error))

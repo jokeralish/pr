@@ -115,15 +115,15 @@ def RIDEN_FAST_USER(fast):
 
                     elif rfuText in ["Sp","sp","Speed","speed"]:
                         start = time.time()
-                        cl.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
+                        cl.sendText("c66a646a8b5ecc8e0ebf74d920670f02d", ' ')
                         elapsed_time = time.time() - start
                         cl.sendText(kirim, "%s" % (elapsed_time))
                         start2 = time.time()
-                        cl.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
+                        cl.sendText("c66a646a8b5ecc8e0ebf74d920670f02d", ' ')
                         elapsed_time = time.time() - start2
                         cl.sendText(kirim, "%s" % (elapsed_time))
                         start3 = time.time()
-                        cl.sendText("u9f478c580a9c4e1de5e407e9b10c2da1", ' ')
+                        cl.sendText("c66a646a8b5ecc8e0ebf74d920670f02d", ' ')
                         elapsed_time = time.time() - start3
                         cl.sendText(kirim, "%s" % (elapsed_time))
 
