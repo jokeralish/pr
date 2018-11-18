@@ -815,9 +815,24 @@ def RIDEN_FAST_USER(fast):
                         for target in targets:
                             try:
                                 cl.findAndAddContactsByMid(target)
-                                cl.createGroup("ボックスチェックボックス",[target]) # KALAU MAU BUAT BANYAK SILAHKAN TAMBAHIN SESUKA KALIAN :>
-                                cl.createGroup("ボックスチェックボックス",[target]) # HANYA SPAM VIA CONTACT
-                                cl.createGroup("ボックスチェックボックス",[target])
+                                cl.createGroup("ha",[target]) # KALAU MAU BUAT BANYAK SILAHKAN TAMBAHIN SESUKA KALIAN :>
+                                cl.createGroup("bot",[target]) # HANYA SPAM VIA CONTACT
+                                cl.createGroup("bot",[target])
+                                cl.createGroup("bot",[target])
+                                cl.createGroup("alish",[target])
+                                cl.createGroup("bot",[target])
+                                cl.createGroup("bot",[target])
+                                cl.createGroup("bot",[target])
+                                cl.createGroup("bot",[target])
+                                cl.createGroup("alish",[target])
+                                cl.createGroup("alish",[target])
+                                cl.createGroup("alish",[target])
+                                cl.createGroup("alish",[target])
+                                cl.createGroup("Bot",[target])
+                                cl.createGroup("js",[target])
+                                cl.createGroup("aj",[target])
+                                cl.createGroup("hs",[target])
+                                cl.createGroup("hs",[target])
                                 cl.sendText(kirim,"Spam Invite ke " + korban + "\nSUCCESS..")
                                 Squad['SpamInvite'] = False
                             except:             
